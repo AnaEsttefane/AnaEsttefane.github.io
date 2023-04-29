@@ -1,0 +1,74 @@
+/*Arquivo principal contendo o código CSS*/
+
+body{
+    background-color:hwb(320 98% 1%);
+  }
+  
+  h1{
+  
+    color: hsl(0, 0%, 7%);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(201, 5, 168);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: xx-large;
+  }
+  
+  ul{
+    list-style-type: none; 
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 3%), 56%, 57%;
+  
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  li{
+    float: left; /* Coloca os elementos um ao lado do outro */
+  
+  }
+  
+  li a{
+    display: inline-block; /* Permite a especificação do padding */
+    color: hwb(0 72% 15%)0%, 2%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 30px; /* Coloca espaço entre os elementos dentro de <a> */
+    text-decoration: none; /* Tira a decoração do link*/
+  }
+  
+  li a:hover:not(.active){
+    background-color: #d81515;
+  
+  }
+  .active{
+    background-color:rgb(10, 10, 10);
+  }
+  
+  .container {
+    display: flex;
+    align-items: flex-start;
+  }
+  #bemvindo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:xx-large;
+    color: rgb(143, 15, 104);
+    text-align: center;
+  }
+  #link-topo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(203, 14, 209);
+    padding: 15px;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    box-shadow: 5px 5px 10px #333;
+}
+  
